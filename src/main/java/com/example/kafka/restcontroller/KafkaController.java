@@ -1,4 +1,4 @@
-package com.example.kafka.producer.restcontroller;
+package com.example.kafka.restcontroller;
 
 import com.example.kafka.model.KafkaMessage;
 import com.example.kafka.producer.MessageProducer;
