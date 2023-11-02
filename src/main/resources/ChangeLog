@@ -1,0 +1,5 @@
+In case if you find below exception please delete the below folder:
+
+The process cannot access the file because it is being used by another process. kafka
+Solution :
+"C:\Users\jaswa\kafka\kafka-logs"
