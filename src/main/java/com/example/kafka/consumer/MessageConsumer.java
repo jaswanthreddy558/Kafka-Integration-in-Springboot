@@ -10,8 +10,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class MessageConsumer {
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageConsumer.class);
+    public static final String CONSUMER_GROUP_ID = "${spring.kafka.consumer.group-id}";
 
-    @KafkaListener(topics = "users", groupId = "${spring.kafka.consumer.group-id}")
+    @KafkaListener(topics = "users", groupId = CONSUMER_GROUP_ID)
     public void listen(@Payload KafkaMessage kafkaMessage) {
         LOGGER.info("Message received ID : {} Message Contact Number: {} Message Email : {}",
                 kafkaMessage.getId(), kafkaMessage.getContactNo(), kafkaMessage.getEmail());
