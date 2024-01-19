@@ -6,4 +6,4 @@ Step 4 : Start the Kafka Server C:\Users\jaswa\kafka\bin\windows\kafka-server-st
 Step 5 : kafka\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic TestTopic
 ToView the topic list :  C:\Users\jaswa\kafka\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 Step 6 : Added Messages inside our Topics C:\Users\jaswa\kafka\bin\windows\kafka-console-producer --broker-list localhost:9092 --topic TestTopic 
-Step 7 : C:\Users\jaswa> kafka\bin\windows\kafka-console-consumer.bat --topic TestTopic --from-beginning --bootstrap-server localhost:9092
+Step 7 : C:\Users\jaswa> kafka\bin\windows\kafka-cons   ole-consumer.bat --topic TestTopic --from-beginning --bootstrap-server localhost:9092
