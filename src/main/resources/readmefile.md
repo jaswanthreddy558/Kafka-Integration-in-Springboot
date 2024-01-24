@@ -1,7 +1,4 @@
 For Local configuration please follow the steps for Kafka configuration
-
-The current version of kafka using kafka_2.12-2.8.1
-
 Step 1 : Download the kafka https://kafka.apache.org/downloads
 Zookeeper :
 C:\Users\jaswa\kafka_2.12-2.8.1\bin\windows\zookeeper-server-start.bat C:\Users\jaswa\kafka_2.12-2.8.1\config\zookeeper.properties
